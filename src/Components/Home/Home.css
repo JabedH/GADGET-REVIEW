@@ -1,0 +1,14 @@
+.home {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin-top: 20px;
+  align-items: center;
+  margin: 5%;
+}
+.home h1 {
+  font-size: 50px;
+  font-weight: 800;
+}
+.home span {
+  color: tomato;
+}
