@@ -1,0 +1,29 @@
+.header {
+  background-color: rgb(71 85 105);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.header-img {
+  display: flex;
+  align-items: center;
+  margin: 0 5%;
+  color: white;
+}
+.header img {
+  width: 8%;
+}
+.header-link {
+  display: flex;
+  align-items: center;
+  margin: 0 5%;
+}
+
+.link {
+  margin-left: 20px;
+  color: white;
+}
+.linkActive {
+  margin-left: 20px;
+  color: tomato;
+}
