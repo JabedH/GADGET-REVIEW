@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Andrew Williams",
+    "review": "This Product was very interesting and now I am using this laptop . I recommend everyone if you have time can check it out and feel this new product.",
+    "rating": 5,
+    "img": "https://raw.githubusercontent.com/JabedH/review-img/main/assignment%208%20img/1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Dan Grabham",
+    "review": "I am satisfied with this product and seller. I have gotten the exact laptop that I had selected.",
+    "rating": 4.5,
+    "img": "https://raw.githubusercontent.com/JabedH/review-img/main/assignment%208%20img/2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "G. Rodriguez",
+    "review": "This is my second LG Gram so far. I bought my first one over three years ago and till this day it runs like new. And so I'm very happy with this computer",
+    "rating": 5,
+    "img": "https://raw.githubusercontent.com/JabedH/review-img/main/assignment%208%20img/3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "David Fisher",
+    "review": "This looks to be a good laptop at a good price, but be aware that it does not have a UK keyboard.  This means you can't type certain characters, including the pound sign £",
+    "rating": 4,
+    "img": "https://raw.githubusercontent.com/JabedH/review-img/main/assignment%208%20img/4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Chris Hall",
+    "review": "One of the better computers I have bought over the years",
+    "rating": 5,
+    "img": "https://raw.githubusercontent.com/JabedH/review-img/main/assignment%208%20img/5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Cam Bunton",
+    "review": "Clerity & nice size screen, very good price for i7 HP product. very satisfied",
+    "rating": 4.5,
+    "img": "https://raw.githubusercontent.com/JabedH/review-img/main/assignment%208%20img/6.jpg"
+  }
+]
