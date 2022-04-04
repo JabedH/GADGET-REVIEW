@@ -1,0 +1,7 @@
+.allChart {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 50px;
+  justify-items: center;
+}
