@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# WELCOME TO GADGET REVIEW
 
-This project was bootstrapped with [Create React App](https://gadget-review.netlify.app/).
+LIVE SITE [GADGET REVIEW](https://gadget-review.netlify.app/).
 
 
-### Analyzing the Bundle Size
+### About this site
+* We build this site for gadget review.
+* 
+* This site is a dynamic site. don't need reload again and again.
+* this website is also mobile responsive.
