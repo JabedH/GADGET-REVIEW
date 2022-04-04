@@ -60,7 +60,7 @@ const RechartData = (props) => {
       </div>
       <div>
         <h1 className="mb-5 mt-5 font-bold text-indigo-400 text-2xl">
-          REVENUE VS INVESTMENT
+          MONTH VS SEEL
         </h1>
         <PieChart width={600} height={250} className="mt-10">
           <Pie
