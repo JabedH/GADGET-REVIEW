@@ -22,6 +22,8 @@ import {
 } from "recharts";
 
 const RechartData = (props) => {
+  //   const { recharts } = props.recharts;
+  //   console.log(recharts);
   const { investment, month, revenue, sell } = props.rechart;
   return (
     <div className="allChart">
@@ -30,7 +32,7 @@ const RechartData = (props) => {
           MONTH VS SEEL
         </h1>
         <LineChart
-          width={500}
+          width={400}
           height={300}
           data={props.recharts}
           margin={{ top: 5, right: 20, bottom: 5, left: 0 }}
@@ -46,7 +48,7 @@ const RechartData = (props) => {
         <h1 className="mb-5 font-bold text-indigo-400 text-2xl">
           REVENUE VS INVESTMENT
         </h1>
-        <BarChart width={500} height={300} data={props.recharts}>
+        <BarChart width={400} height={300} data={props.recharts}>
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="month" />
           <YAxis />
@@ -60,7 +62,7 @@ const RechartData = (props) => {
         <h1 className="mb-5 mt-5 font-bold text-indigo-400 text-2xl">
           MONTH VS SEEL
         </h1>
-        <PieChart width={600} height={250} className="mt-10">
+        <PieChart width={400} height={250} className="mt-10">
           <Pie
             data={props.recharts}
             dataKey="sell"
@@ -88,7 +90,7 @@ const RechartData = (props) => {
           REVENUE VS INVESTMENT
         </h1>
         <AreaChart
-          width={500}
+          width={400}
           height={250}
           data={props.recharts}
           margin={{ top: 10, right: 30, left: 0, bottom: 0 }}

@@ -5,4 +5,14 @@
   margin: 5%;
 }
 .seeReviews {
+  margin-top: 50px;
+}
+@media only screen and (max-width: 480px) {
+  .customerReview {
+    display: inline;
+    margin-top: 20px;
+  }
+  .seeReviews {
+    margin-top: 50px;
+  }
 }

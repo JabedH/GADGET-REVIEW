@@ -3,10 +3,10 @@ import "./Blogs.css";
 
 const Blogs = () => {
   return (
-    <div className="grid grid-cols-3 gap-10 m-10 text-justify mt-20">
-      <div className="bg-slate-50 p-5 rounded-lg drop-shadow-lg">
+    <div className="blogs grid grid-cols-3 gap-10 m-10 text-justify mt-20 ">
+      <div className="bg-slate-50 mb-10 p-5 rounded-lg drop-shadow-lg  myBlog">
+        <h1 className="font-bold text-xl mb-5">What is context api? </h1>
         <p>
-          <h1 className="font-bold text-xl mb-5">What is context api? </h1>
           In a typical React application, data is passed top-down. if we want to
           access data first of all we have to send data to the child by using
           drilling. this is the reason we have to use "props" again and again.
@@ -19,11 +19,11 @@ const Blogs = () => {
           that consumes and uses the state.
         </p>
       </div>
-      <div className="bg-slate-50 p-5 rounded-lg drop-shadow-lg">
+      <div className="bg-slate-50 mb-10 p-5 rounded-lg drop-shadow-lg myBlog">
+        <h1 className="font-bold text-xl mb-5">what is semantic tag?</h1>
         <p>
-          <h1 className="font-bold text-xl mb-5">what is semantic tag?</h1>A
-          semantic tag clearly describes the meaning to the web page rather than
-          just presentation. for example semantic tags : <b>table</b> and{" "}
+          A semantic tag clearly describes the meaning to the web page rather
+          than just presentation. for example semantic tags : <b>table</b> and{" "}
           <b>article</b> - Clearly defines its content. but non-semantic
           elements:
           <b>div</b> and <b>span</b> Tells nothing about its content. * The
@@ -32,11 +32,11 @@ const Blogs = () => {
           * It offers a better user experience.
         </p>
       </div>
-      <div className="bg-slate-50 p-5 rounded-lg drop-shadow-lg">
+      <div className="bg-slate-50 p-5 rounded-lg drop-shadow-lg myBlog">
+        <h1 className="font-bold text-xl mb-5">
+          What is the difference between inline and inline block element?{" "}
+        </h1>
         <p>
-          <h1 className="font-bold text-xl mb-5">
-            What is the difference between inline and inline block element?{" "}
-          </h1>
           Displays an element as an inline element. inline element slow left and
           right margins and padding, but not top & bottom. we can not set width
           and height. Inline-block elements. Inline-block display behavior both

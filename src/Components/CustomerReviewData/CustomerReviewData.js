@@ -6,13 +6,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const CustomerReviewData = (props) => {
   const { name, img, review, rating } = props.product;
-  console.log(props.product.name);
   return (
     <div className="allData">
       <div className="reviewdata ">
         <figure className="bg-slate-100 rounded-xl p-8 allData">
           <img className="  rounded-full mx-auto" src={img} alt="" />
-          <h1>{name}</h1>
+          <h1 className="mt-5">{name}</h1>
           <div className="pt-6 space-y-4">
             <div className="review-hight">
               <p className="text-lg font-medium">{review}</p>

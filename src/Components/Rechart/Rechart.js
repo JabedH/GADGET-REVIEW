@@ -10,11 +10,10 @@ const Rechart = () => {
       .then((res) => res.json())
       .then((data) => setRechart(data));
   }, []);
-  console.log(recharts);
   return (
     <div className="rechart">
       {myChart.map((rechart) => (
-        <RechartData recharts={recharts} rechart={rechart} />
+        <RechartData key={rechart.id} recharts={recharts} rechart={rechart} />
       ))}
     </div>
   );

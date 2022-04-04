@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import UseProduct from "../Hooks/UseProduct";
-import img from "../../img/1.jpg";
 import CustomerReviewData from "../CustomerReviewData/CustomerReviewData";
 import "./CustomerReview.css";
 import { Link } from "react-router-dom";
@@ -8,8 +7,6 @@ import { Link } from "react-router-dom";
 const CustomerReview = () => {
   const [products, setProducts] = UseProduct();
   const myProducts = products.slice(0, 3);
-  console.log(products);
-
   return (
     <div className="mb-10">
       <div className="customerReview">

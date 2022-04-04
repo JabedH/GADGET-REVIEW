@@ -27,3 +27,11 @@
   margin-left: 20px;
   color: tomato;
 }
+@media only screen and (max-width: 480px) {
+  .header-img {
+    display: none;
+  }
+  .header-link {
+    font-size: 12px;
+  }
+}

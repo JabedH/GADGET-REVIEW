@@ -5,8 +5,6 @@ import UseProduct from "../Hooks/UseProduct";
 
 const Reviews = () => {
   const [products, setProducts] = UseProduct();
-
-  console.log(products);
   return (
     <div className="customerReview">
       {products.map((product) => (

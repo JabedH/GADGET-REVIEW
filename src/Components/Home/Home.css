@@ -17,3 +17,34 @@
 
   font-weight: 600;
 }
+
+/* @media only screen and (max-width: 767px) */
+@media only screen and (max-width: 480px) {
+  .home {
+    display: inline;
+    align-items: center;
+    margin: 30px;
+  }
+  .home h1 {
+    font-size: 30px;
+  }
+
+  .home p {
+    margin: 20px;
+    text-align: center;
+  }
+
+  .reviews {
+    font-size: 30px;
+  }
+  .home-details {
+    order: 1;
+  }
+  .home-img {
+    width: 100%;
+    padding: 30px;
+    order: 0;
+    /* display: flex;
+    justify-content: center; */
+  }
+}
