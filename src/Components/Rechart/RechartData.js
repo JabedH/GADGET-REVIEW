@@ -22,8 +22,6 @@ import {
 } from "recharts";
 
 const RechartData = (props) => {
-  //   const { recharts } = props.recharts;
-  //   console.log(recharts);
   const { investment, month, revenue, sell } = props.rechart;
   return (
     <div className="allChart">
@@ -90,7 +88,7 @@ const RechartData = (props) => {
           REVENUE VS INVESTMENT
         </h1>
         <AreaChart
-          width={600}
+          width={500}
           height={250}
           data={props.recharts}
           margin={{ top: 10, right: 30, left: 0, bottom: 0 }}
