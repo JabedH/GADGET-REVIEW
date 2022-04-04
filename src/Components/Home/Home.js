@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import img from "../../img/1.jpg";
+import CustomerReview from "../CustomerReview/CustomerReview";
 
 const Home = () => {
   return (
@@ -27,6 +28,7 @@ const Home = () => {
       <div className="reviews">
         <h1>Customer Reviews</h1>
       </div>
+      <CustomerReview />
     </div>
   );
 };

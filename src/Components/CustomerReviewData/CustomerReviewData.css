@@ -1,7 +1,18 @@
 .reviewdata img {
+  width: 20%;
 }
 .reviewdata {
-  width: 30%;
 }
-.allReview {
+.allData {
+  height: 380px;
+}
+.review-hight {
+  height: 160px;
+}
+.rating {
+  display: flex;
+  justify-content: center;
+}
+.rating p {
+  margin-right: 5px;
 }

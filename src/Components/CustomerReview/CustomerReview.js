@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from "react";
 import UseProduct from "../Hooks/UseProduct";
 import img from "../../img/1.jpg";
-import Reviews from "../Reviews/Reviews";
-import ReviewData from "../ReviewData/ReviewData";
-import AllReviews from "../AllReviews/AllReviews";
 import CustomerReviewData from "../CustomerReviewData/CustomerReviewData";
+import "./CustomerReview.css";
 
 const CustomerReview = () => {
   const [products, setProducts] = UseProduct();
@@ -12,7 +10,7 @@ const CustomerReview = () => {
   console.log(products);
 
   return (
-    <div className="">
+    <div className="customerReview">
       {myProducts.map((product) => (
         <CustomerReviewData key={product.id} product={product} />
       ))}

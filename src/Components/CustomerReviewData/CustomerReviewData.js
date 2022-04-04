@@ -8,22 +8,17 @@ const CustomerReviewData = (props) => {
   const { name, img, review, rating } = props.product;
   console.log(props.product.name);
   return (
-    <div className="">
-      <div className="flex justify-between ">
-        <figure class="bg-slate-100 rounded-xl p-8 ">
-          <img
-            class="  rounded-full mx-auto"
-            src={img}
-            alt=""
-            width="384"
-            height="512"
-          />
+    <div className="allData">
+      <div className="reviewdata ">
+        <figure className="bg-slate-100 rounded-xl p-8 allData">
+          <img className="  rounded-full mx-auto" src={img} alt="" />
           <h1>{name}</h1>
-          <div class="pt-6 space-y-4">
-            <blockquote>
-              <p class="text-lg font-medium">{review}</p>
-            </blockquote>
-            <figcaption>
+          <div className="pt-6 space-y-4">
+            <div className="review-hight">
+              <p className="text-lg font-medium">{review}</p>
+            </div>
+
+            <div className="rating">
               <p>{rating} </p>
               <Rating
                 initialRating={rating}
@@ -36,7 +31,7 @@ const CustomerReviewData = (props) => {
                 }
                 readonly
               ></Rating>
-            </figcaption>
+            </div>
           </div>
         </figure>
       </div>
