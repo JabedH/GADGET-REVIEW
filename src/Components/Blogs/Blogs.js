@@ -20,7 +20,7 @@ const Blogs = () => {
         </p>
       </div>
       <div className="bg-slate-50 mb-10 p-5 rounded-lg drop-shadow-lg myBlog">
-        <h1 className="font-bold text-xl mb-5">what is semantic tag?</h1>
+        <h1 className="font-bold text-xl mb-5">what is semantic tag? </h1>
         <p>
           A semantic tag clearly describes the meaning to the web page rather
           than just presentation. for example semantic tags : <b>table</b> and{" "}
