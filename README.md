@@ -3,7 +3,12 @@
 LIVE SITE [GADGET REVIEW](https://gadget-review.netlify.app/).
 * https://gadget-review.netlify.app/
 
-
+### Built With
+* React.js
+* Tailwind CSS
+* recharts
+* font-awesome
+* react router
 ### About this site
 * I build this site for gadget review.
 * we can see all reviews from the review button.
